@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyLearning - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="12487101_1920_1080_25fps.mp4" type="video/mp4">
+            <!-- Fallback for browsers that don't support video -->
+            <div class="video-fallback"></div>
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Welcome to MyLearning Platform</h1>
+                <p>Your journey to academic excellence starts here</p>
+                <button id="openLoginPopup" class="hero-login-btn">
+                    <span>Login / Sign Up</span>
+                    <i class="fas fa-sign-in-alt"></i>
+                </button>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                    <span>Scroll to explore</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Class Sections -->
+        <section class="class-section" data-aos="fade-right">
+            <div class="class-card">
+                <div class="class-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="class-content">
+                    <h3>Class 6</h3>
+                    <p>Foundation building with interactive lessons in Mathematics, Science, English, and Social Studies. Start your learning journey with engaging content designed for young minds.</p>
+                    <ul>
+                        <li>Interactive Math Problems</li>
+                        <li>Science Experiments</li>
+                        <li>English Grammar & Literature</li>
+                        <li>History & Geography</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="class-section" data-aos="fade-left">
+            <div class="class-card">
+                <div class="class-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <div class="class-content">
+                    <h3>Class 7</h3>
+                    <p>Advanced concepts in core subjects with practical applications. Develop critical thinking skills through challenging problems and real-world examples.</p>
+                    <ul>
+                        <li>Advanced Mathematics</li>
+                        <li>Physics & Chemistry Basics</li>
+                        <li>Creative Writing</li>
+                        <li>Civics & Economics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="class-section" data-aos="fade-right">
+            <div class="class-card">
+                <div class="class-icon">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <div class="class-content">
+                    <h3>Class 8</h3>
+                    <p>Comprehensive curriculum focusing on analytical skills and conceptual understanding. Prepare for higher secondary education with confidence.</p>
+                    <ul>
+                        <li>Algebra & Geometry</li>
+                        <li>Physical Sciences</li>
+                        <li>Literature Analysis</li>
+                        <li>Indian Constitution</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="class-section" data-aos="fade-left">
+            <div class="class-card">
+                <div class="class-icon">
+                    <i class="fas fa-atom"></i>
+                </div>
+                <div class="class-content">
+                    <h3>Class 9</h3>
+                    <p>Board exam preparation begins here. Master fundamental concepts that form the foundation for Class 10 and beyond.</p>
+                    <ul>
+                        <li>Advanced Mathematics</li>
+                        <li>Physics, Chemistry & Biology</li>
+                        <li>English Literature</li>
+                        <li>Social Sciences</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="class-section" data-aos="fade-right">
+            <div class="class-card">
+                <div class="class-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="class-content">
+                    <h3>Class 10</h3>
+                    <p>Board exam excellence with comprehensive test preparation, mock exams, and expert guidance. Achieve your academic goals with confidence.</p>
+                    <ul>
+                        <li>Board Exam Preparation</li>
+                        <li>Mock Tests & Practice Papers</li>
+                        <li>Doubt Clearing Sessions</li>
+                        <li>Career Guidance</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Roadmap Section -->
+        <section class="career-section" data-aos="zoom-in">
+            <div class="career-header">
+                <h2>Career Roadmap</h2>
+                <p>Choose your path to success</p>
+            </div>
+            
+            <div class="career-grid">
+                <div class="career-card" data-aos="flip-left">
+                    <div class="career-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>NEET</h3>
+                    <p>Medical entrance preparation with comprehensive Biology, Physics, and Chemistry coverage.</p>
+                    <div class="career-features">
+                        <span>Biology Focus</span>
+                        <span>Mock Tests</span>
+                        <span>Expert Faculty</span>
+                    </div>
+                </div>
+                
+                <div class="career-card" data-aos="flip-right">
+                    <div class="career-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>JEE</h3>
+                    <p>Engineering entrance preparation with advanced Mathematics, Physics, and Chemistry.</p>
+                    <div class="career-features">
+                        <span>Advanced Math</span>
+                        <span>Problem Solving</span>
+                        <span>IIT Faculty</span>
+                    </div>
+                </div>
+                
+                <div class="career-card" data-aos="flip-left">
+                    <div class="career-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>UPSC</h3>
+                    <p>Civil services preparation with current affairs, history, geography, and general studies.</p>
+                    <div class="career-features">
+                        <span>Current Affairs</span>
+                        <span>Essay Writing</span>
+                        <span>Interview Prep</span>
+                    </div>
+                </div>
+                
+                <div class="career-card" data-aos="flip-right">
+                    <div class="career-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>Creative design courses including UI/UX, Graphic Design, and Product Design.</p>
+                    <div class="career-features">
+                        <span>Creative Skills</span>
+                        <span>Portfolio Building</span>
+                        <span>Industry Projects</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Popup Login Form -->
+    <div class="popup-container" id="loginPopupContainer">
+        <div class="login-popup">
+            <button class="close-btn" id="closeLoginPopup">&times;</button>
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h2>MyLearning</h2>
+            </div>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                
+                <button type="submit" class="login-btn">
+                    <span>Login</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                
+                <div class="form-footer">
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                    <p>Don't have an account? <a href="#" id="signupLink">Sign up</a></p>
+                </div>
+            </form>
+            
+            <!-- Sign Up Form (Hidden by default) -->
+            <form id="signupForm" style="display: none;">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="signupName" placeholder="Full Name" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="signupEmail" placeholder="Email Address" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="signupPassword" placeholder="Password" required>
+                </div>
+                
+                <button type="submit" class="login-btn">
+                    <span>Sign Up</span>
+                    <i class="fas fa-user-plus"></i>
+                </button>
+                
+                <div class="form-footer">
+                    <p>Already have an account? <a href="#" id="loginLink">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="js/firebase-config.js"></script>
+    <script type="module" src="js/auth.js"></script>
+    <script src="js/main.js"></script>
+
+<!-- Footer -->
+  <footer>
+    <p>© 2025 MyLearning. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
